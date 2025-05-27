@@ -39,5 +39,5 @@ async def get_nationality(name: str) -> dict:
         "tahminler": result
     }
 
-if __name__ == "__main__":
-    mcp.run(transport="stdio")
+# 🌐 HTTP transport için bu şekilde bırak
+mcp.run()
